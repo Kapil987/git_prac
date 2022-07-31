@@ -7,11 +7,9 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		int a ,b,res ;
 		String ch;
-		Scanner sc= new Scanner(System.in);
-		a=sc.nextInt();
-		b=sc.nextInt();
-		System.out.println("enter + or - or / or *");
-		ch=sc.next();
+		a = Integer.parseInt(args[0]);
+		b = Integer.parseInt(args[1]);
+		ch = args[0];
 		switch(ch)
 		{
 		case "+":
