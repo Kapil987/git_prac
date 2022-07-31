@@ -1,4 +1,3 @@
-package calculator;
 import java.util.*;
 //import java.io.*;
 public class Calculator {
@@ -9,7 +8,7 @@ public class Calculator {
 		String ch;
 		a = Integer.parseInt(args[0]);
 		b = Integer.parseInt(args[1]);
-		ch = args[0];
+		ch = args[2];
 		switch(ch)
 		{
 		case "+":
