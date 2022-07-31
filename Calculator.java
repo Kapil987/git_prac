@@ -32,7 +32,6 @@ public class Calculator {
 			System.out.println("you have choosen wrong option");
 
 		}
-		sc.close();
 
 	}
 
